@@ -29,18 +29,18 @@ div.navbar{
 
 
 div.logo img{
-    width: 150px;
+    width: 120px;
 }
 
 
 ul.list-items{
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 40px;
     color: #fff;
     list-style: none;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
@@ -50,15 +50,15 @@ li.items.active{
 }
 
 ul.list-items button{
-    padding: 14px 25px;
+    padding: 12px 20px;
     background-color: #9494b8;
     color: #fff;
     border: none;
-    font-size: 18px;
+    font-size: 15px;
    
 }
 
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width:800px) {
 
     header{
         height: 180%;
@@ -66,7 +66,8 @@ ul.list-items button{
 
     
     ul.list-items{
-        gap: 50px;
+        gap: 20px;
+        font-size: 13px;
     } 
 
     div.logo img{
@@ -78,11 +79,12 @@ ul.list-items button{
     }
 
     ul.list-items button{
+        display: inline-block;
         padding: 10px 18px;
         background-color: #9494b8;
         color: #fff;
         border: none;
-        font-size: 15px;
+        font-size: 12px;
        
     }
 }
@@ -104,22 +106,22 @@ div.hero-left{
 }
 
 div.hero-left h1{
-    font-size: 70px;
+    font-size: 55px;
     color: #fff;
 }
 
 div.hero-left p{
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 20px;
     margin-top: 50px;
     color: #d1d0d0;
 }
 
 img.hero-img{
-    width: 800px;
+    width: 600px;
 }
 
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:870px){
     div.hero{
         height: 80%;
         flex-direction: column-reverse;    
@@ -128,6 +130,10 @@ img.hero-img{
     div.hero-left{
         margin-left: 0;
         text-align: center;
+    }
+
+    img.hero-img{
+        width: 500px;
     }
 }
 
@@ -143,7 +149,7 @@ div.info{
 
 
 div.info-left img{
-    width: 700px;
+    width: 580px;
 }
 
 div.right-info div.heading{
@@ -151,7 +157,7 @@ div.right-info div.heading{
 }
 
 div.right-info div.heading h3{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 div.features{
@@ -161,12 +167,12 @@ div.features{
 }
 
 div.features h4{
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 16px;
 }
 
 div.features p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 div.features img{
@@ -175,7 +181,7 @@ div.features img{
     left: -40px;
 }
 
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:870px){
     div.info{
         
         flex-direction: column;
@@ -188,7 +194,7 @@ div.features img{
 /* --------footer----------- */
 
 footer{
-    height: 60vh;
+    height: 70vh;
 }
 
 footer div.heading{
@@ -203,14 +209,14 @@ div.cards{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 60px;
+    justify-content: space-evenly;
     margin-top: 60px;
 }
 
 div.card{
     border: none;
-    height: 280px;
-    width: 230px;
+    height: 250px;
+    width: 200px;
     border-radius: 30px;
     box-shadow: 5px 5px 5px #a8a8a8; 
     overflow: hidden;
@@ -223,11 +229,11 @@ div.icon {
 }
 
 div.icon img{
-    width: 90px;
+    width: 70px;
 }
 
 div.card-info h5{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 div.card-info p{
@@ -246,7 +252,7 @@ div.card-info.active1{
     background-color: blue;
 }
 
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:870px){
     footer{
         height: 100%;    
     }
